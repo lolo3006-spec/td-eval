@@ -1,5 +1,8 @@
 "use client"
 import {useState} from 'react'
+interface ButtonProps {
+    
+}
 
 export default function Counter () {
     const [count, setCount] = useState(0)
